@@ -1,0 +1,146 @@
+nav{
+  top: 0%;
+  width: 100%;
+  position: fixed;
+  background-color: #4FB3D5;
+}
+.topnav{
+  text-align: right;
+  background-color: #4FB3D5;
+}
+.topnav a:hover{
+  background-color: black;
+}
+.topnav ul li{
+  list-style: none;
+  display: inline-block;
+}
+.topnav ul li a{
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  display: block;
+  padding: 20px 20px;
+  font-size: 15px;text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* positioning image */
+.column img{
+  margin-left: 100%;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  display: block;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  bottom: -70px;
+  float: left;
+}
+.caption p{
+  position:relative; right:400px; top:2px;
+  position: relative;
+  top: 180px;
+  font-size: 40px;
+}
+#section1{
+  height: 700px;
+  background-color: black;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+  background-image: url('images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg');
+  background-size: cover;
+}
+#section2{
+  height: 700px;
+  background-color: #782642;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#section3{
+  height: 700px;
+  background-color: whitesmoke;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#section4{
+  height: 700px;
+  background-color:black;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+h1{
+  color: whitesmoke;
+  text-align: center;
+}
+h2{
+  color: black;
+}
+.intro p{
+  color: black;
+}
+.caption{
+  color:whitesmoke;
+  text-align: center;
+  margin-left: 60%;
+  
+  
+
+}
+.content p{
+  color: whitesmoke;
+  margin-left: 20%;
+  font-weight: 200;
+font-size: larger;
+  margin: 0;
+  bottom: -95%;
+  position: absolute;
+  left: 25%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+  
+   }
+   h3{
+     color: whitesmoke;
+     font-weight: 600;
+     font-size: x-large;
+     font-weight: bolder;
+   }
+   h2{
+     color: black;
+     text-align: center;
+     font-weight: 600;
+     font-size: x-large;
+     font-weight: bolder;
+
+   }
+img{
+  float: right;
+
+  
+}
+#more {display: none;}
+
+
+
+
+
+
+
